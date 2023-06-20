@@ -35,6 +35,7 @@ const emit = defineEmits(['change', 'delete'])
 ### 组件暴露出自己的属性和方法
 
 //子组件
+```javascript
 <template>
   <!--  <p>子</p>-->
   <button @click="butFn">改变page值: {{ page }} </button>
@@ -106,6 +107,7 @@ div {
   flex-direction: column;
 }
 </style>
+```
 
 
 
